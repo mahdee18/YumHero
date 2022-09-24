@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(252, 207, 207);
+    line-height: 70px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 50%;
+    text-align: right;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul li {
+
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.resarvationBtn{
+    width: 25%;
+    background: rgb(159, 71, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
+}
+.resarvationBtn a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.banner{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+
+.b-left{
+    width: 50%;
+    height: 450px;
+    display: flex;
+
+}
+.b-left span{
+    font-size: 20px !important;
+}
+.b-left p{
+    margin-top: 100px;
+    margin-left: 120px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1f2e4b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.b-right{
+    width: 50%;
+    /* background-image: url(../img/BannerBg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 50%;
+    max-width: 100%;
+    display: inline; */
+} 
+.b-right img{
+    max-width: 100%;
+
+}
+.hero-service {
+    display:flex;
+    margin-top: 408px;
+    margin-left: -395px;
+    height: 103px;
+}
+.spa{
+    width: 103px;
+    height: 100%;
+    background-color: #F9D6C1;
+    margin-right: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel {
+    width: 103px;
+    height: 100%;
+    background-color: #CBE8F8;
+    margin-right: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breakfast{
+    width: 103px;
+    height: 100%;
+    background-color: #F5D7E1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
